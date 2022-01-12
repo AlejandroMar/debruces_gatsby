@@ -16,7 +16,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/index.md"
+      - file: "src/content/index.yml"
         label: "Landing Page"
         name: "index"
         fields:
@@ -35,3 +35,13 @@ collections:
                   { label: image, name: image, widget: image }
                 ]
             }
+          - {
+              label: "Last Album Photo",
+              name: lastAlbumPhoto,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Title, name: title, widget: string }
+                ]
+              }

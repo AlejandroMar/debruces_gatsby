@@ -1,0 +1,233 @@
+.theme_bg {
+  background-color: $theme-color;
+}
+
+.social-icons-band {
+  z-index: 1000;
+
+}
+
+
+// navigation
+.navbar-nav .nav-item {
+  font-weight: 500;
+
+  &:hover,
+  {
+    border-bottom: 1px solid $navbar-light-hover-color;
+  }
+}
+
+
+
+.active.nav-item {
+  border-bottom: 1px solid $navbar-light-hover-color;
+}
+
+
+
+.icon_font_size {
+  font-size: 1.2rem;
+}
+
+.icons__bar {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_img {
+  width: 50%;
+}
+
+.featured_album {
+  width: 25%;
+}
+
+
+.contact-section {
+  background-position: center center;
+}
+
+.page-footer {
+  margin-top: 9%;
+}
+
+.footer__copy-right {
+  text-align: right;
+}
+
+.video_thumbnail {
+  cursor: pointer;
+}
+
+
+
+
+.videos__video-strip div {
+  padding-left: .3rem;
+  padding-right: .3rem;
+}
+
+.our-music {
+  position: relative;
+}
+
+.our-music__svg-bg {
+  position: absolute;
+  fill: #FED815;
+  z-index: -1;
+
+}
+
+.our-music__svg-bg-left {
+  left: -80%;
+}
+
+.our-music__svg-bg-right {
+  right: -80%;
+}
+
+/* Media queries */
+@media (max-width:575px) {
+  .icon_font_size {
+    font-size: 1rem;
+  }
+
+  .featured_album {
+    width: 40%;
+  }
+}
+
+@media (max-width:767px) {
+  .footer__copy-right {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .featured_album {
+    width: 35%;
+  }
+}
+
+/* music page */
+.hero__img {
+
+  height: 70vh;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.albums__row div iframe,
+.singles__row div iframe {
+  width: 100%;
+  height: 80%;
+}
+
+.full-with-play-list > iframe {
+  width: 100% !important;
+  height: 180px !important;
+}
+
+.albums__col,
+.singles__col {
+  margin-bottom: 1.5rem;
+}
+
+.albums__col {
+  height: 380px;
+}
+
+/* video__page */
+.videos__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.categories__navigation {
+  cursor: pointer;
+
+}
+
+/* support page */
+.payu_icon {
+  width: 4rem;
+  fill: black;
+}
+
+.payu_credit {
+  font-size: .03rem;
+}
+
+.separator {
+  height: 3vh;
+}
+
+.donation {
+  color: $success;
+  font-weight: bolder;
+}
+
+
+
+
+// from understrap
+
+img.wp-post-image,
+article img,
+figure,
+img,
+#secondary img {
+  max-width: 100%;
+  height: auto;
+}
+
+// woocommerce
+#customer_details > div.col-1 {
+  flex: 0 0 60%;
+  min-width: 60%;
+}
+
+
+#customer_details > div.col-2 {
+  flex: 0 0 40%;
+  min-width: 40%;
+}
+
+
+@media (max-width: 768px) {
+  #customer_details > div.col-1 {
+    flex: 0 0 80%;
+    min-width: 80%;
+    margin: 0 auto;
+  }
+
+  #customer_details > div.col-2 {
+    margin: 0 auto;
+    margin-top: 2rem;
+    flex: 0 0 80%;
+    min-width: 80%;
+  }
+
+}
+
+#customer_details .form-row {
+  display: block;
+
+  input {
+    padding: .2rem;
+
+  }
+
+}
+
+#order_review_heading {
+  margin-top: 3rem;
+}
+.separator-height {
+  height: 3rem;
+}
+
+@import "bio_landing_section";
