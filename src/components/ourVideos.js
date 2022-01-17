@@ -15,6 +15,7 @@ function OurVideos() {
                 <h3 className="font-weight-bold pt-2 text-center text-uppercase my-5">
                     Videos
                 </h3>
+
                 {/* featured video */}
 
                 <div className="ratio ratio-16x9 mb-4 m-auto w-75">
@@ -23,6 +24,7 @@ function OurVideos() {
                         src="https://www.youtube.com/embed/ta2nvtLAaOk"
                     />
                 </div>
+
                 {/* video grid */}
 
                 <div className="ml-auto mr-auto row w-100 videos__video-strip">
@@ -39,11 +41,13 @@ function OurVideos() {
                     ))}
                 </div>
             </div>
+
             <div className="d-flex justify-content-center align-items-center my-5">
                 <Link className="btn btn-primary" to="/videos">
                     Más videos
                 </Link>
             </div>
+
             <div className="container my-5">
                 <hr />
             </div>
