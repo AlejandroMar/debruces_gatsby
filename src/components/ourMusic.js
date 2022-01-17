@@ -8,6 +8,7 @@ import {
     faDeezer,
 } from '@fortawesome/free-brands-svg-icons';
 import { faCompactDisc } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'gatsby';
 
 function OurMusic() {
     return (
@@ -106,9 +107,9 @@ function OurMusic() {
                 />
             </div>
             <div className="d-flex justify-content-center align-items-center">
-                <a className="btn btn-primary" href="#" role="button">
+                <Link className="btn btn-primary" to="/musica">
                     Más música
-                </a>
+                </Link>
             </div>
         </section>
     );

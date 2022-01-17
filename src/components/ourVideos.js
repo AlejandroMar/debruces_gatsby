@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 
 function OurVideos() {
     return (
@@ -57,9 +58,9 @@ function OurVideos() {
                 </div>
             </div>
             <div className="d-flex justify-content-center align-items-center my-5">
-                <a className="btn btn-primary" href="#" role="button">
+                <Link className="btn btn-primary" to="/videos">
                     Más videos
-                </a>
+                </Link>
             </div>
             <div className="container my-5">
                 <hr />

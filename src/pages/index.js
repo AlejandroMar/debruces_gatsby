@@ -22,10 +22,15 @@ function Index() {
                 msg="Contacto"
                 subtitle="Escríbenos"
                 title="Contacto"
+                link="/contacto"
             />
             <Separator line={true} />
             <OurVideos />
-            <CallToAction msg="Ir a la página" title="Quieres apoyarnos?" />
+            <CallToAction
+                msg="Ir a la página"
+                title="Quieres apoyarnos?"
+                link="/apoyanos"
+            />
             <Separator line={true} />
             <Bio />
             <Separator line={true} />
@@ -33,6 +38,7 @@ function Index() {
                 msg="Contacto"
                 subtitle="Escríbenos"
                 title="Contacto"
+                link="/contacto"
             />
             <Separator />
         </main>
