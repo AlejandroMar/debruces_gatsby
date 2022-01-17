@@ -7,7 +7,8 @@ const navInfo = [
     { link: '/musica', title: 'Música' },
     { link: '/videos', title: 'Videos' },
     { link: '/bio', title: 'Bio' },
-    { link: '/apoyanos', title: 'apóyanos' },
+    { link: '/apoyanos', title: 'Apóyanos' },
+    { link: '/contacto', title: 'Contacto' },
 ];
 
 function Navigation() {
